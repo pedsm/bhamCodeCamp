@@ -1,0 +1,22 @@
+{
+  "name": "BhamCodeCamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "node src/index.js",
+    "prestart": "npm run build",
+    "start": "serve dist"
+  },
+  "author": "pedsm",
+  "license": "MIT",
+  "dependencies": {
+    "markdown": "^0.5.0",
+    "serve": "^10.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "node-fetch": "^2.3.0"
+  }
+}

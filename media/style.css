@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+    color: #333
+}
+body {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+p {
+    line-height:2em;
+}
+
+a {
+    text-decoration: none;
+    color: #3273dc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul > li {
+    font-size: 1em;
+    padding:5px;
+    list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #3273dc; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+img {
+    width:100%;
+    box-sizing:border-box;
+    padding: 30px 300px;
+
+}
